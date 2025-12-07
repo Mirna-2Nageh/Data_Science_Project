@@ -1,0 +1,64 @@
+{
+    "project_name": "E-commerce Product Relevance Prediction",
+    "version": "1.0.0",
+    "created_date": "2025-12-07T10:33:39.201896",
+    "model_type": "classical",
+    "model_name": "Standard",
+    "performance_metrics": {
+        "accuracy": 0.9294078509647372,
+        "f1_score": 0.18572524942440521,
+        "precision": 0.4432234432234432,
+        "recall": 0.11747572815533981,
+        "auc_roc": 0.543458321775312
+    },
+    "feature_count": 14,
+    "training_samples": 98000,
+    "validation_samples": 17360,
+    "test_samples": 15030,
+    "class_distribution": {
+        "positive": 0.2857142857142857,
+        "negative": 0.7142857142857143
+    },
+    "top_features": [
+        {
+            "Feature": "rfm_score",
+            "Importance_Normalized": 59.042789629531335
+        },
+        {
+            "Feature": "avg_session_events",
+            "Importance_Normalized": 10.025211228964952
+        },
+        {
+            "Feature": "total_views",
+            "Importance_Normalized": 6.683002049459234
+        },
+        {
+            "Feature": "total_events",
+            "Importance_Normalized": 6.570684262246333
+        },
+        {
+            "Feature": "frequency_score",
+            "Importance_Normalized": 5.644528103062308
+        },
+        {
+            "Feature": "events_per_day",
+            "Importance_Normalized": 5.2169865963038005
+        },
+        {
+            "Feature": "total_sessions",
+            "Importance_Normalized": 2.0707309342964035
+        },
+        {
+            "Feature": "user_item_view_ratio",
+            "Importance_Normalized": 1.8057779701960583
+        },
+        {
+            "Feature": "view_count",
+            "Importance_Normalized": 0.680312959312189
+        },
+        {
+            "Feature": "sessions_featured",
+            "Importance_Normalized": 0.6459073885225781
+        }
+    ]
+}
